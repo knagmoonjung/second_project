@@ -8,3 +8,148 @@
     color: #fff;
     text-align: center;
 }
+
+/* 스타일 파일: indexmiok.css - 최종 수정 버전 */
+
+body {
+    font-family: 'S-CoreDream', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFE2E2;
+    padding: 15px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.menu a:hover {
+    background-color: #FFC7C7;
+    color: #FFFFFF;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    border: 1px solid #28a745;
+    background-color: #ffffff;
+    color: #28a745;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+main {
+    padding: 30px;
+    min-height: 300px;
+}
+
+footer {
+    background-color: #F6F6F6;
+    padding: 20px;
+    color: black;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.footer-icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo img {
+    height: 70px;
+}
+
+.footer-info {
+    text-align: center;
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
