@@ -153,3 +153,37 @@ footer {
         gap: 10px;
     }
 }
+
+.container {
+    max-width: 100%;
+}
+
+.btn {
+    background-color: #FFC7C7;
+}
+
+.card-title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #606060;
+}
+
+.card-text {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #606060;
+}
+
+.btn {
+    color: #606060;
+}
