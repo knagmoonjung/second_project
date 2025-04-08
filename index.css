@@ -154,37 +154,36 @@ footer {
     }
 }
 
-/* 카드뉴스 */
-.container{
+.container {
     max-width: 100%;
 }
 
-.btn{
+.btn {
     background-color: #FFC7C7;
 }
 
-.card-title{
+.card-title {
     display: block;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
     color: #606060;
 }
 
-.card-text{
+.card-text {
     display: block;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     color: #606060;
 }
 
-.btn{
+.btn {
     color: #606060;
 }
